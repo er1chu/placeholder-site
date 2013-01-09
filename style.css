@@ -13,23 +13,31 @@ button {
     width: auto;
     overflow: visible;
 }
-#feed{
+
+#flyer {
     position: fixed;
-    width: 80px;
-    height: 80px;
+    top: 20px;
+    left: 20px;
+    font: 24px 'Helvetica Neue', Helvetica, Arial;
+    font-weight: bold;
+
+}
+#feed{
+  /*  position: fixed;
+    width: 400px;
+    height: 400px; */
     z-index: 1000;
     cursor: pointer;
-    top: 50%;
+    font: 24px 'Helvetica Neue', Helvetica, Arial;
+    font-weight: bold;
+   /* top: 50%;
     left: 50%;
-    margin-top: -40px;
-    margin-left: -40px;
-    padding 0 0 5px 0;
-    color: white;
-    background: #000;
-    font-size: 40px;
+    margin-top: -200px;
+    margin-left: -200px; 
+    padding 0 0 5px 0; */
 }
 #feed:hover{
-    color: #eee;
+    color: #00f;
     }
 #feed:active{
     top: 50.2%;

@@ -3,7 +3,7 @@
 <html>
   <head>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-    <title>vomimage</title>
+    <title>Eric Hu — mail@erichu.info</title>
     <link rel="alternate" type="application/atom+xml" href="@root_path/?/feed/">
     <link rel="stylesheet" href="style.css" type="text/css" media="screen"> 
     <!-- 
@@ -11,10 +11,14 @@
     -->
   </head>
   <body id="vomimage">
-    <div id="feedholder">
-        <button id="feed">+</button>
+    <div id="flyer">
+        Eric Hu : <a href="mailto:erichu.info">mail@erichu.info</a><br/><br />
+
+        New site coming soon. For now you can either:<br /><br />
+        <button id="feed">01. See some random images.</button><br />
+        02. Or view the old site.
     </div>
-    <div>
+
     <?php
     // Directory where images are
     $directory = "images/";
@@ -26,12 +30,11 @@
     
     // Writing an img tag with respective height and width
     foreach ($images as $img) {
-        list($width, $height, $type, $attr)= getimagesize($img); 
         echo "<img data-src='$img' width='$width' height='$height' /> \n";
     }
     ?>
     <p>
-        <a href="https://github.com/raphaelbastide/vomimage">Source and doc</a>
+        <a href="https://github.com/er1chu/placeholder-site">Fork me on Github</a>
     </p>
     </div>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js" type="text/javascript" charset="utf-8"></script>
