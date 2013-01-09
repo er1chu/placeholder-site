@@ -12,11 +12,11 @@
   </head>
   <body id="vomimage">
     <div id="flyer">
-        Eric Hu : <a href="mailto:erichu.info">mail@erichu.info</a><br/><br />
+       <a id="name" href="http://twitter.com/_erichu" target="_blank">Eric Hu</a> : <a href="mailto:erichu.info">mail@erichu.info</a><br/><br />
 
-        New site coming soon. For now you can either:<br /><br />
-        <button id="feed">01. See some random images.</button><br />
-        02. Or view the old site.
+        New site coming soon.<br />
+        <button id="feed">Click <u>here</u> for some random images.</button><br /><br />
+        Or view an archived version of the <a href="http://cargocollective.com/hu">old site</a>.
     </div>
 
     <?php
@@ -34,7 +34,7 @@
     }
     ?>
     <p>
-        <a href="https://github.com/er1chu/placeholder-site">Fork me on Github</a>
+    <a href="https://github.com/er1chu/placeholder-site">Fork me on Github</a>
     </p>
     </div>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js" type="text/javascript" charset="utf-8"></script>

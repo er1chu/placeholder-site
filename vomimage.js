@@ -1,16 +1,16 @@
 (function($){
     $(document).ready(function() {
-        var bunch    = 2, // Number of images called on click
+        var bunch    = 1, // Number of images called on click
             maxRound = 3, // Maximum click number before hiding first images
             fadeInSpeed  = 300,
             fadeOutSpeed = 300,
             hideOnDblclick = false, // Hide on double click
-            imgRotation  = true, // If true, images are displayed with a angle
+            imgRotation  = false, // If true, images are displayed with a angle
             customImgSize  = true, // If true, define a custom size for images
-            endText = 'FIN', // Text displayed when list is over
-                mimgw = 200, // Maximum image width 
-                mimgh = 200, // Maximum image height
-                enlargeOnClick = true;
+            endText = 'No More :(', // Text displayed when list is over
+                mimgw = 650, // Maximum image width 
+                mimgh = 650, // Maximum image height
+                enlargeOnClick = false
 
         // Initialisation
         $('#vomimage img:not([src])').hide();
@@ -81,7 +81,7 @@
             }
             // Is it the end ?
             if (0 === im.length){
-                $('#feed').html(endText).addClass('fin');
+                $('#feed').html(endText).addClass('No More :(');
             }
             j++;
             if (j >= maxRound){

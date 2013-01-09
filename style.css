@@ -17,6 +17,7 @@ button {
 #flyer {
     position: fixed;
     top: 20px;
+    z-index: 1000;
     left: 20px;
     font: 24px 'Helvetica Neue', Helvetica, Arial;
     font-weight: bold;
@@ -27,6 +28,7 @@ button {
     width: 400px;
     height: 400px; */
     z-index: 1000;
+    background :#fff;
     cursor: pointer;
     font: 24px 'Helvetica Neue', Helvetica, Arial;
     font-weight: bold;
@@ -44,6 +46,7 @@ button {
     }
 img{
     position: absolute;
+    cursor: move;
 }
 p{
     position:fixed;
