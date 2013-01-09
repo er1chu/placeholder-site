@@ -40,5 +40,10 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="vomimage.js" type="text/javascript" charset="utf-8"></script>
+    <meta name="google-site-verification" content="uzpYgIJ7i-Iy2YmC5AMaFmAI16e-_dth34JS6btmtx4" />
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
   </body>
 </html>
